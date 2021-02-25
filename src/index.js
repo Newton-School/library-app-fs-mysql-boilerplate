@@ -16,4 +16,4 @@ app.use(cors())
 
 
 app.listen(port);
-exports.app = app;
+module.exports = app;
